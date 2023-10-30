@@ -1,4 +1,9 @@
 INSERT INTO universities (uni_name, location) VALUES
+	('Massachusetts Institute of Technology', 'Cambridge, MA, USA'),
+	('Stanford University', 'Stanford, CA, USA'),
+	('Harvard University', 'Cambridge, MA, USA'),
+	('California Institute of Technology', 'Pasadena, CA, USA'),
+	('University of Oxford', 'Oxford, England'),
 	('University of Example', 'Example City'),
 	('Institute of Sample', 'Sample Town'),
 	('Tech University', 'Tech City'),
@@ -11,16 +16,21 @@ INSERT INTO universities (uni_name, location) VALUES
 	('Business College', 'Business Town');
 
 INSERT INTO professors (prof_name, department) VALUES
-	('Dr. Smith', 'Computer Science'),
-	('Dr. Johnson', 'Mathematics'),
-	('Dr. Williams', 'Physics'),
-	('Dr. Jones', 'Chemistry'),
-	('Dr. Brown', 'Biology'),
-	('Dr. Davis', 'History'),
-	('Dr. Miller', 'Engineering'),
-	('Dr. Wilson', 'Art'),
-	('Dr. Moore', 'Medicine'),
-	('Dr. Taylor', 'Business');
+	('Dr. Alan Turing', 'Computer Science', 135000.00),
+	('Dr. Albert Einstein', 'Physics', 135000.00),
+	('Dr. Jane Goodall', 'Anthropology', 125000.00),
+	('Dr. Marie Curie', 'Chemistry', 130000.00),
+	('Dr. Richard Feynman', 'Physics', 140000.00),
+	('Dr. Smith', 'Computer Science', 120000.00),
+	('Dr. Johnson', 'Mathematics', 120000.00),
+	('Dr. Williams', 'Physics', 80000.00),
+	('Dr. Jones', 'Chemistry', 80000.00),
+	('Dr. Brown', 'Biology', 80000.00),
+	('Dr. Davis', 'History', 80000.00),
+	('Dr. Miller', 'Engineering', 120000.00),
+	('Dr. Wilson', 'Art', 125000.00),
+	('Dr. Moore', 'Medicine', 130000.00),
+	('Dr. Taylor', 'Business', 120000.00);
 
 INSERT INTO students (student_name, major, uni_id) VALUES
 	('Alice Johnson', 'Computer Science', 1),
@@ -57,3 +67,11 @@ INSERT INTO classrooms (classroom_name, capacity, uni_id) VALUES
 	('Art Studio', 10, 8),
 	('Medicine Lab', 20, 9),
 	('Business Room', 30, 10);
+	
+INSERT INTO tuitions (program_name, tuition_fee, uni_id) VALUES
+	('B.Sc. in Computer Science', 50000.00, 1),
+	('Ph.D. in Physics', 55000.00, 2),
+	('M.Sc. in Anthropology', 30000.00, 3),
+	('B.Sc. in Chemistry', 45000.00, 4),
+	('Ph.D. in Physics', 52000.00, 5);
+
