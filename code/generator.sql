@@ -9,7 +9,8 @@ CREATE TABLE universities (
 CREATE TABLE professors (
     prof_id SERIAL PRIMARY KEY,
     prof_name VARCHAR(255) NOT NULL,
-    department VARCHAR(255)
+    department VARCHAR(255),
+    salary DECIMAL(10, 2)
 );
 
 
@@ -33,3 +34,12 @@ CREATE TABLE classrooms (
     capacity INT,
     uni_id INT REFERENCES universities(uni_id)
 );
+
+
+CREATE TABLE tuitions (
+    tuition_id SERIAL PRIMARY KEY,
+    program_name VARCHAR(255) NOT NULL,
+    tuition_fee DECIMAL(10, 2) NOT NULL,
+    uni_id INT REFERENCES universities(uni_id)
+);
+
