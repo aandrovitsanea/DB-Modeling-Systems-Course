@@ -15,12 +15,12 @@ INSERT INTO universities (uni_name, location) VALUES
 	('Medical University', 'Medic City'),
 	('Business College', 'Business Town');
 
-INSERT INTO professors (prof_name, department) VALUES
-	('Dr. Alan Turing', 'Computer Science', 135000.00),
-	('Dr. Albert Einstein', 'Physics', 135000.00),
-	('Dr. Jane Goodall', 'Anthropology', 125000.00),
-	('Dr. Marie Curie', 'Chemistry', 130000.00),
-	('Dr. Richard Feynman', 'Physics', 140000.00),
+INSERT INTO professors (prof_name, department, salary) VALUES
+	('Dr. Turing', 'Computer Science', 135000.00),
+	('Dr. Einstein', 'Physics', 135000.00),
+	('Dr. Goodall', 'Anthropology', 125000.00),
+	('Dr. Curie', 'Chemistry', 130000.00),
+	('Dr. Feynman', 'Physics', 140000.00),
 	('Dr. Smith', 'Computer Science', 120000.00),
 	('Dr. Johnson', 'Mathematics', 120000.00),
 	('Dr. Williams', 'Physics', 80000.00),
