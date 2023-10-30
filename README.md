@@ -39,6 +39,6 @@ sudo apt install dbeaver-ce
 
 ### Clone
 ```sh
-git clone <repository_url>
-cd <repository_directory>
+git clone https://github.com/aandrovitsanea/DB-Modeling-Systems-Course
+cd DB-Modeling-Systems-Course
 ```
