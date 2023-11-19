@@ -42,3 +42,27 @@ sudo apt install dbeaver-ce
 git clone https://github.com/aandrovitsanea/DB-Modeling-Systems-Course
 cd DB-Modeling-Systems-Course
 ```
+
+### Contribution
+Feel free to contribute to the repo of the course and correct mistakes etc.
+ 
+Clone the repo locally
+```sh
+git clone git@github.com:aandrovitsanea/DB-Modeling-Systems-Course.git
+```
+
+Get in the repo
+```sh
+cd DB-Modeling-Systems-Course
+```
+ 
+ 
+Create a new branch where you can start working the modifications
+```sh
+git checkout -b your_branch
+```
+ 
+Push the branch with the modifications so that I can review and merge the branch to main
+```sh
+git push --set-upstream origin your_branch
+```
